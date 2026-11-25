@@ -1,0 +1,6 @@
+import torch
+
+if __name__ == '__main__':
+    print(torch.cuda.is_available()) 
+
+    print(torch.__version__)  # Должно быть 2.6.x или новее
